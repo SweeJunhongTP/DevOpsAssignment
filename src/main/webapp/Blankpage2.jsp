@@ -16,7 +16,7 @@
 		</div>
 		<ul class="navbar-nav">
 			<li><a 
-			href="<%=request.getContextPath()%>/home.jsp"
+			href="<%=request.getContextPath()%>/Home.jsp"
 				class="nav-link">home</a></li>
 		</ul>
 	
@@ -28,6 +28,11 @@
 		<ul class="navbar-nav">
 			<li><a 
 			href="<%=request.getContextPath()%>/Blankpage1.jsp"
+				class="nav-link">2</a></li>
+		</ul>
+		<ul class="navbar-nav">
+			<li><a 
+			href="<%=request.getContextPath()%>/Recipe.jsp"
 				class="nav-link">2</a></li>
 		</ul>
 	</nav>
