@@ -48,7 +48,7 @@ public class RecipeManagement  extends HttpServlet {
 		
 		
 		//step5 - listUsers function to connect to the database and retrieve all user records
-		private void listUsers (HttpServletRequest request, HttpServletResponse response)
+		private void listRecipe (HttpServletRequest request, HttpServletResponse response)
 		throws SQLException, IOException, ServletException
 		{
 			List <Recipe> recipes = new ArrayList <> ();
@@ -70,7 +70,7 @@ public class RecipeManagement  extends HttpServlet {
 				System.out.println(e.getMessage());
 			}
 			//step 5.4 - set the users list into the listusers attribute to be pass to the usermangement.jsp
-			request.setAttribute("listUsers", recipes);
+			request.setAttribute("listRecipe", recipes);
 			request.getRequestDispatcher("/Recipe.jsp").forward(request, response);
 		}
 		
@@ -107,7 +107,7 @@ public class RecipeManagement  extends HttpServlet {
 					deleteRecipe(request,response);
 					break;
 				case "/RecipeManagement/recipe":
-					 listUsers(request, response);
+					listRecipe(request, response);
 					 break;
 				}
 			}catch (SQLException ex) {
