@@ -33,5 +33,18 @@
 	</nav>
 
 <h2> page 1</h2>
+
+<form action ="RegisterServlet" method="post">
+Name: <input type= "text" name="userName">
+Password: <input type = "password" name="password">
+Email: <input type="text" name= "email">
+Gender: <select name="gender">
+<option>Male</option>
+<option>Female</option>
+<option>Others</option>
+</select>
+<input type = "submit" value="Submit"/>
+</form>
+
 </body>
 </html>
