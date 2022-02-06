@@ -17,11 +17,20 @@
 		<servlet-class>HomeServlet</servlet-class>
 
 	</servlet>
-	<servlet>
-		<servlet-name>HomeServlet</servlet-name>
-		<servlet-class>HomeServlet</servlet-class>
+		<servlet>
+		<servlet-name>RecipeManagement</servlet-name>
+		<servlet-class>RecipeManagement</servlet-class>
+
 	</servlet>
 
+
+<servlet-mapping>
+		<servlet-name>RecipeManagement</servlet-name>
+		<url-pattern>/RecipeManagement/recipe</url-pattern>
+		<url-pattern>/RecipeManagement/edit</url-pattern>
+		<url-pattern>/RecipeManagement/update</url-pattern>
+		<url-pattern>/RecipeManagement/delete</url-pattern>
+	</servlet-mapping>
 	<servlet-mapping>
 		<servlet-name>HomeServlet</servlet-name>
 		<url-pattern>/HomeServlet/home</url-pattern>
