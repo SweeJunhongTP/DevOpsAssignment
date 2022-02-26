@@ -1,8 +1,8 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>DevOpsProject</groupId>
-  <artifactId>DevOpsProject</artifactId>
+  <groupId>com.devopsproject</groupId>
+  <artifactId>devopsproject</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
    <properties>
@@ -78,23 +78,7 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/x
         <artifactId>maven-war-plugin</artifactId>
         <version>3.2.3</version>
       </plugin>
-      <plugin>
-        <groupId>com.spotify</groupId>
-             <artifactId>dockerfile-maven-plugin</artifactId>
-             <version>1.4.3</version>
-             <executions>
-                 <execution>
-                     <id>default</id>
-                     <goals>
-                         <goal>build</goal>
-                     </goals>
-                 </execution>
-             </executions>
-             <configuration>
-             <repository>docker.io/kkapelon/docker-maven-comparison</repository>
-                 <tag>${project.version}</tag>
-             </configuration>
-         </plugin>
+     
     </plugins>
   </build>
 </project>
