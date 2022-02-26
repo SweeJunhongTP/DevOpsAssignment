@@ -23,14 +23,11 @@
 
 		<ul class="navbar-nav">
 			<li><a href="<%=request.getContextPath()%>/Blankpage1.jsp"
-				class="nav-link">blank1</a></li>
+				class="nav-link">Register</a></li>
 		</ul>
-		<ul class="navbar-nav">
-			<li><a href="<%=request.getContextPath()%>/Blankpage2.jsp"
-				class="nav-link">blank2</a></li>
-		</ul>
-		<ul class="navbar-nav">
-			<li><a href="<%=request.getContextPath()%>/Recipe.jsp"
+
+			<ul class="navbar-nav">
+			<li><a href="<%=request.getContextPath()%>/RecipeManagement/recipe"
 				class="nav-link">recipe</a></li>
 		</ul>
 	</nav>

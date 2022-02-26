@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Blank page 1</title>
+<title>Register</title>
 <%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
@@ -22,19 +22,16 @@ integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw
 
 		<ul class="navbar-nav">
 			<li><a href="<%=request.getContextPath()%>/Blankpage1.jsp"
-				class="nav-link">blank1</a></li>
+				class="nav-link">Register</a></li>
 		</ul>
-		<ul class="navbar-nav">
-			<li><a href="<%=request.getContextPath()%>/Blankpage2.jsp"
-				class="nav-link">blank2</a></li>
-		</ul>
-		<ul class="navbar-nav">
+		
+			<ul class="navbar-nav">
 			<li><a href="<%=request.getContextPath()%>/RecipeManagement/recipe"
 				class="nav-link">recipe</a></li>
 		</ul>
 	</nav>
 
-<h2> page 1</h2>
+<h2> Register As Member!</h2>
 
 <form action ="RegisterServlet" method="post">
 Name: <input type= "text" name="userName">

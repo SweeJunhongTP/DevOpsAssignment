@@ -9,7 +9,8 @@
 
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
-<body>	<nav class="navbar navbar-expand-md navbar-light">
+<body>	
+<nav class="navbar navbar-expand-md navbar-light">
 		<div>
 			<a class="navbar-brand"> Food Blog Application </a>
 		</div>
@@ -20,17 +21,14 @@
 
 		<ul class="navbar-nav">
 			<li><a href="<%=request.getContextPath()%>/Blankpage1.jsp"
-				class="nav-link">blank1</a></li>
+				class="nav-link">Register</a></li>
 		</ul>
-		<ul class="navbar-nav">
-			<li><a href="<%=request.getContextPath()%>/Blankpage2.jsp"
-				class="nav-link">blank2</a></li>
-		</ul>
-		<ul class="navbar-nav">
+			<ul class="navbar-nav">
 			<li><a href="<%=request.getContextPath()%>/RecipeManagement/recipe"
 				class="nav-link">recipe</a></li>
 		</ul>
 	</nav>
+	<h2 class="text-center my-5">Welcome to Home page!</h2>
 
 </body>
 </html>
