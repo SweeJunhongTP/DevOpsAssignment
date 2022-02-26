@@ -29,7 +29,7 @@ integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw
 				class="nav-link">blank2</a></li>
 		</ul>
 		<ul class="navbar-nav">
-			<li><a href="<%=request.getContextPath()%>/Recipe.jsp"
+			<li><a href="<%=request.getContextPath()%>/RecipeManagement/recipe"
 				class="nav-link">recipe</a></li>
 		</ul>
 	</nav>

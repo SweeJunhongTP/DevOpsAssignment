@@ -59,6 +59,7 @@ public class RecipeServlet extends HttpServlet {
 				writer.println("<h1>" + "You have successfully added a new recipe" + "</h1>");
 				writer.close();
 				
+				
 				}
 				}
 				//Step 8: catch and print out any exception
