@@ -21,7 +21,7 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/x
     <testng.version>7.0.0</testng.version>
     <!-- more organized way to add dependencies -->
   </properties>
-  <dependencies>
+	<dependencies>
 		<dependency>
 			<groupId>javax.servlet</groupId>
 			<artifactId>javax.servlet-api</artifactId>
@@ -64,11 +64,11 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/x
 			<scope>test</scope>
 		</dependency>
 		<dependency>
-  <groupId>org.apache.maven.plugins</groupId>
-  <artifactId>maven-jar-plugin</artifactId>
-  <version>3.2.2</version>
-  <type>maven-plugin</type>
-</dependency>
+			<groupId>org.apache.maven.plugins</groupId>
+			<artifactId>maven-jar-plugin</artifactId>
+			<version>3.2.2</version>
+			<type>maven-plugin</type>
+		</dependency>
 	</dependencies>
   <build>
     <plugins>
