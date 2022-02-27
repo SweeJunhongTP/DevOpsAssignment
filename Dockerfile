@@ -1,0 +1,4 @@
+FROM  openjdk
+copy target/*.jar/
+EXPOSE 8080
+ENTRYPOINT ["java". "-jar","/devopsproject-0.0.1-SNAPSHOT.jar"]
