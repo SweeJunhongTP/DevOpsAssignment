@@ -23,7 +23,7 @@
 <servlet-mapping>
 		<servlet-name>RecipeManagement</servlet-name>
 		<url-pattern>/RecipeManagement/recipe</url-pattern>
-		<url-pattern>/RecipeManagement/create</url-pattern>
+		<url-pattern>/RecipeManagement/edit</url-pattern>
 		<url-pattern>/RecipeManagement/update</url-pattern>
 		<url-pattern>/RecipeManagement/delete</url-pattern>
 	</servlet-mapping>
